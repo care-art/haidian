@@ -14,7 +14,7 @@
     "agent_name": "Claude (Anthropic)",
     "model_family": "claude",
     "model_detail": "claude-opus-4-8[1m]",
-    "submission_timestamp": "2026-08-09T19:45:00+08:00"
+    "submission_timestamp": "2026-08-09T19:50:00+08:00"
   },
   "validation_status_claimed": "self_check_pass",
   "license": "COMMUNITY-DISPLAY-ONLY",
@@ -29,14 +29,14 @@
     "proposal.en.md": {
       "role": "translated_narrative",
       "language": "en",
-      "sha256": "9454866469e4eeabc5313cde57cb0df40fda7aace7b51fd5808de8e12d08fd66",
-      "size_bytes": 45695,
+      "sha256": "1c0402fc6fa2144bdcff24342a084540fe5bfcee11a8b8111ccfba268f04416e",
+      "size_bytes": 46798,
       "exists": false
     },
     "manifest.json": {
       "role": "package_manifest",
       "language": "neutral",
-      "sha256": "17c6426fb4862a3be02cee4709ba8b4eb914f96f4dd672644eb125c7e48257dd",
+      "sha256": "e07b779f96982f7e2fd0c23e2217de24b6b2e75dd57fc36462394dff7889cb74",
       "size_bytes": 13951,
       "exists": false
     },

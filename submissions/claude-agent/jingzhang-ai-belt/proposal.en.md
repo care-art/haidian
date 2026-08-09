@@ -325,7 +325,7 @@ Based on the national spatial land use classification standard, the overall desi
 
 ### AI Scenario Cards (12)
 
-| Scenario ID | Name | Domain | Location | Target | Privacy | Human Review | Operating Protocol | Operating Protocol |
+| Scenario ID | Name | Domain | Location | Target | Privacy | Human Review | Operating Protocol | Operating Protocol | Operating Protocol |
 |-------------|------|--------|----------|--------|---------|--------------|
 | S-001 | AI Traffic Signal Optimization | AI+Transport | Xitucheng Rd/Academy Rd intersection | Commuters | Anonymized flow data | Real-time monitoring |
 | S-002 | AI Medical Imaging Aid | AI+Healthcare | AI Origin Community Health Center | Patients | Medical data de-identified | Doctor review |
@@ -339,6 +339,22 @@ Based on the national spatial land use classification standard, the overall desi
 | S-010 | AI Energy Management Optimization | AI+Municipal | Belt-wide distributed energy nodes | Residents/Enterprises | Energy consumption data | System monitoring |
 | S-011 | AI Public Space Interactive Install | AI+Public Space | Jing-Zhang Heritage Park nodes | Public | Anonymous interaction | No sensitive data |
 | S-012 | AI Industry Brain Visualization | AI+Industry | Zhongzhiyuan AI Innovation Park | Government/Enterprises | Industrial economic data | Permission tiered |
+
+**Scenario Passport System** (referencing xyh202131's verifiable scenario protocol):
+
+Each scenario card corresponds to a "scenario passport" containing six fields:
+
+| Field | Description | S-001 Example |
+|-------|-------------|---------------|
+| **Scenario ID** | Unique identifier | S-001 |
+| **Operating Status** | Green=accessible / Yellow=controlled test / Red=stopped | Yellow (controlled test) |
+| **Data Boundary** | What data is collected, retention period, who can access | Anonymized flow data, auto-deleted after 7 days |
+| **Human Fallback** | Alternative when AI fails | Manual signal control, switch within 30 seconds |
+| **Expiration Date** | Auto-expiration date (prevents permanent deployment) | 2027-08-09 (1-year pilot) |
+| **Rollback Mechanism** | How to safely exit and restore | One-click switch to manual control mode |
+
+**Stop Conditions**: When human review detects 3+ consecutive misjudgments, or user complaint rate exceeds 5%, or data leakage risk is assessed as high, the scene automatically enters red status and triggers rollback.
+
 
 ### Industry Test and Validation Scenarios (3)
 
