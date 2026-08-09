@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CONST-001",
+      "properties": {
+        "id": "CONST-001",
+        "layer": "CONSTRAINTS",
+        "source_type": "public_data",
+        "confidence": "medium",
+        "geometry_role": "constraint_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-CONSTRAINTS-20260809",
+        "source_title": "京张铁路遗址公园保护范围（概念）",
+        "constraint_type": "heritage_protection",
+        "constraint_description_zh": "京张铁路遗址公园保护范围，需遵循文保要求",
+        "name_zh": "京张遗址公园保护范围"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.341,
+              39.95
+            ],
+            [
+              116.344,
+              39.95
+            ],
+            [
+              116.344,
+              40.007
+            ],
+            [
+              116.341,
+              40.007
+            ],
+            [
+              116.341,
+              39.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONST-002",
+      "properties": {
+        "id": "CONST-002",
+        "layer": "CONSTRAINTS",
+        "source_type": "public_data",
+        "confidence": "medium",
+        "geometry_role": "constraint_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-CONSTRAINTS-20260809",
+        "source_title": "五环路交通控制带",
+        "constraint_type": "transport_corridor",
+        "constraint_description_zh": "五环路交通控制带，需满足退线要求",
+        "name_zh": "五环路控制带"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              40.02
+            ],
+            [
+              116.355,
+              40.02
+            ],
+            [
+              116.355,
+              40.0265
+            ],
+            [
+              116.34,
+              40.0265
+            ],
+            [
+              116.34,
+              40.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONST-003",
+      "properties": {
+        "id": "CONST-003",
+        "layer": "CONSTRAINTS",
+        "source_type": "public_data",
+        "confidence": "medium",
+        "geometry_role": "constraint_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-CONSTRAINTS-20260809",
+        "source_title": "清华园车站旧址保护范围（概念）",
+        "constraint_type": "heritage_protection",
+        "constraint_description_zh": "清华园车站旧址文保范围，需遵循文物保护要求",
+        "name_zh": "清华园车站旧址保护范围"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              39.985
+            ],
+            [
+              116.346,
+              39.985
+            ],
+            [
+              116.346,
+              39.99
+            ],
+            [
+              116.343,
+              39.99
+            ],
+            [
+              116.343,
+              39.985
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "proposal_id": "claude-agent/jingzhang-ai-belt",
+  "generated_date": "2026-08-09",
+  "sources": [
+    {
+      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "source_title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "source_url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_status": "official_public",
+      "usable_for_formal": "yes",
+      "accessed_date": "2026-08-09",
+      "description_zh": "北京市规划和自然资源委员会海淀分局发布的官方公告，定义了项目三层范围、三处重点区域、设计任务等基本框架"
+    },
+    {
+      "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "source_title": "面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录",
+      "source_url": null,
+      "source_status": "user_provided_cleared",
+      "usable_for_formal": "yes",
+      "accessed_date": "2026-08-09",
+      "description_zh": "用户提供的清权任务书，定义了面向AI智能体的六项任务、十条共创原则、评审维度和边界条款"
+    },
+    {
+      "source_id": "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+      "source_title": "城市设计管理办法",
+      "source_url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2023/art_17339_775476.html",
+      "source_status": "official_public",
+      "usable_for_formal": "yes",
+      "accessed_date": "2026-08-09",
+      "description_zh": "住建部城市设计管理办法，是城市设计方案的专业标准依据"
+    },
+    {
+      "source_id": "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+      "source_title": "城市、镇控制性详细规划编制审批办法",
+      "source_url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
+      "source_status": "official_public",
+      "usable_for_formal": "yes",
+      "accessed_date": "2026-08-09",
+      "description_zh": "住建部控规编制审批办法，是设计深度和用地管控的标准依据"
+    },
+    {
+      "source_id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION",
+      "source_title": "国土空间调查、规划、用途管制用地用海分类指南",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917279.htm",
+      "source_status": "official_public",
+      "usable_for_formal": "yes",
+      "accessed_date": "2026-08-09",
+      "description_zh": "自然资源部用地分类指南，是用地代码和指标表达的标准依据"
+    },
+    {
+      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "source_title": "百年京张AI创新带三层范围与三处重点区临时粗略polygon",
+      "source_url": null,
+      "source_status": "provisional_only",
+      "usable_for_formal": "provisional_only",
+      "accessed_date": "2026-08-09",
+      "description_zh": "基于公告文字四至和约面积在EPSG:4548下推定的临时边界，仅用于AI生成和可视化，不得作为官方红线或精确面积依据"
+    },
+    {
+      "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+      "source_title": "AI智能体概念用地布局设计",
+      "source_url": null,
+      "source_status": "agent_generated",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "AI智能体基于设计任务书生成的概念用地布局，属于概念建议，不得作为法定用地依据"
+    },
+    {
+      "source_id": "SRC-AGENT-DESIGN-GREEN-20260809",
+      "source_title": "AI智能体概念绿地系统设计",
+      "source_url": null,
+      "source_status": "agent_generated",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "AI智能体概念设计的绿地系统，包括京张遗址公园绿地和蓝绿廊道"
+    },
+    {
+      "source_id": "SRC-AGENT-DESIGN-PUBLIC-20260809",
+      "source_title": "AI智能体概念公共空间设计",
+      "source_url": null,
+      "source_status": "agent_generated",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "AI智能体概念设计的公共活动空间"
+    },
+    {
+      "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+      "source_title": "AI智能体概念建筑基底设计",
+      "source_url": null,
+      "source_status": "agent_generated",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "AI智能体概念设计的建筑基底，仅供可视化参考"
+    },
+    {
+      "source_id": "SRC-AGENT-DESIGN-PHASE-20260809",
+      "source_title": "AI智能体概念分期设计",
+      "source_url": null,
+      "source_status": "agent_generated",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "AI智能体概念设计的实施分期，仅供规划研究参考"
+    },
+    {
+      "source_id": "SRC-OSM-ROADS-20260809",
+      "source_title": "OpenStreetMap道路中心线（bootstrap参考）",
+      "source_url": "https://www.openstreetmap.org",
+      "source_status": "open_data",
+      "usable_for_formal": "no",
+      "accessed_date": "2026-08-09",
+      "description_zh": "基于OpenStreetMap的道路数据，仅供bootstrap参考，不得作为正式道路红线依据"
+    }
+  ]
+}

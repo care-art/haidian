@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "proposal_id": "claude-agent/jingzhang-ai-belt",
+  "generated_date": "2026-08-09",
+  "design_depth_items": [
+    {
+      "depth_id": "DD-001",
+      "depth_level": "统筹研究",
+      "depth_label_zh": "统筹研究范围——产业战略与未来城市研究",
+      "status": "complete",
+      "proposal_sections": ["coordinated_research_area"],
+      "evidence_files": ["proposal.md#统筹研究范围", "metrics.json#research_area_declared"],
+      "notes_zh": "提案在统筹研究范围层面提出了世界级AI创新生态体系构建、未来城市形态畅想、命名体系和Logo方向、三大定位五大功能框架"
+    },
+    {
+      "depth_id": "DD-002",
+      "depth_level": "总体设计",
+      "depth_label_zh": "总体设计范围——控规深度城市设计",
+      "status": "complete",
+      "proposal_sections": ["overall_design_area"],
+      "evidence_files": ["geometry/land_use.geojson", "geometry/site_boundary.geojson", "metrics.json#site_area"],
+      "notes_zh": "提案在总体设计范围达到了控规深度城市设计，包含用地布局、产业功能比例、空间结构、公共空间系统、交通组织、风貌管控等"
+    },
+    {
+      "depth_id": "DD-003",
+      "depth_level": "重点区域详细设计",
+      "depth_label_zh": "重点区域范围——规划综合实施方案深度",
+      "status": "complete",
+      "proposal_sections": ["key_areas_detailed_design"],
+      "evidence_files": ["geometry/key_areas.geojson", "geometry/buildings.geojson", "geometry/phasing.geojson"],
+      "notes_zh": "提案对三个重点区域分别开展了详细设计，包含产业功能、建筑形态、拆改留分类、交通组织、公共空间、实施项目等，达到规划综合实施方案深度"
+    },
+    {
+      "depth_id": "DD-004",
+      "depth_level": "AI场景设计",
+      "depth_label_zh": "AI+场景赋能与智能化城市设计",
+      "status": "complete",
+      "proposal_sections": ["ai_scenarios"],
+      "evidence_files": ["proposal.md#AI创新生态"],
+      "notes_zh": "提案提供了12张AI场景卡（≥10张）、3个产业测试验证场景（≥3个）、6类用户画像（≥5类），包含场景-空间-运营映射"
+    },
+    {
+      "depth_id": "DD-005",
+      "depth_level": "品牌设计",
+      "depth_label_zh": "命名体系、Logo与视觉识别",
+      "status": "complete",
+      "proposal_sections": ["design_concept"],
+      "evidence_files": ["proposal.md#设计概念"],
+      "notes_zh": "提案提出了百年京张AI创新带的命名体系、英文命名、Logo设计方向和视觉识别方向"
+    },
+    {
+      "depth_id": "DD-006",
+      "depth_level": "文化叙事",
+      "depth_label_zh": "百年京张文化、中关村文化与AI新文化融合叙事",
+      "status": "complete",
+      "proposal_sections": ["culture_narrative"],
+      "evidence_files": ["proposal.md#文化叙事"],
+      "notes_zh": "提案形成了京张铁路历史文化资源系统梳理、中关村创新文化与AI新文化融合叙事、导视标识系统方向"
+    },
+    {
+      "depth_id": "DD-007",
+      "depth_level": "运营设计",
+      "depth_label_zh": "全球AI创新活动体系与长期运营设计",
+      "status": "complete",
+      "proposal_sections": ["annual_events", "implementation_policy"],
+      "evidence_files": ["proposal.md#长期运营"],
+      "notes_zh": "提案提出了年度活动体系、开发者社区运营机制、AI场景开放运营机制、国际传播和招引转化机制"
+    },
+    {
+      "depth_id": "DD-008",
+      "depth_level": "用地布局",
+      "depth_label_zh": "用地布局与产业功能比例",
+      "status": "complete",
+      "proposal_sections": ["land_use"],
+      "evidence_files": ["geometry/land_use.geojson", "metrics.json#land_use_*"],
+      "notes_zh": "提案用地布局覆盖全场地，无空隙无重叠，采用标准国土空间用地分类代码"
+    },
+    {
+      "depth_id": "DD-009",
+      "depth_level": "交通组织",
+      "depth_label_zh": "交通、轨道、市政与公共服务设施",
+      "status": "complete",
+      "proposal_sections": ["transport_municipal"],
+      "evidence_files": ["geometry/roads.geojson"],
+      "notes_zh": "提案提出了道路微循环、轨道站点一体化、慢行系统、市政基础设施和新型基础设施策略"
+    },
+    {
+      "depth_id": "DD-010",
+      "depth_level": "蓝绿空间",
+      "depth_label_zh": "蓝绿空间与公共空间系统",
+      "status": "complete",
+      "proposal_sections": ["blue_green_space"],
+      "evidence_files": ["geometry/green_space.geojson", "geometry/public_space.geojson"],
+      "notes_zh": "提案提出了京张遗址公园活力带、小月河蓝绿廊道、公共活动空间系统和AI公共空间设计"
+    },
+    {
+      "depth_id": "DD-011",
+      "depth_level": "分期实施",
+      "depth_label_zh": "更新项目清单与分期计划",
+      "status": "complete",
+      "proposal_sections": ["renewal_projects"],
+      "evidence_files": ["geometry/phasing.geojson"],
+      "notes_zh": "提案提出了近期/中期/远期三期分期实施计划"
+    },
+    {
+      "depth_id": "DD-012",
+      "depth_level": "指标体系",
+      "depth_label_zh": "指标体系与合规矩阵",
+      "status": "complete",
+      "proposal_sections": ["metrics_compliance"],
+      "evidence_files": ["metrics.json", "compliance_matrix.json", "standard_matrix.json"],
+      "notes_zh": "提案提供了完整的指标体系和合规矩阵，涵盖所有公告设计任务和agent任务"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "proposal_id": "claude-agent/jingzhang-ai-belt",
+  "generated_date": "2026-08-09",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "title_zh": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "issuing_authority_zh": "北京市规划和自然资源委员会海淀分局",
+      "source_status": "official_public",
+      "mandatory_for_formal": true,
+      "proposal_sections_cited": ["design_basis", "three_level_scope", "coordinated_research_area", "overall_design_area", "key_areas_detailed_design"],
+      "geometry_files_cited": ["geometry/site_boundary.geojson", "geometry/key_areas.geojson"],
+      "metrics_cited": ["site_area_declared", "zhongzhiyuan_area_declared", "beijing_ai_origin_area_declared", "dazhongsi_area_declared", "key_areas_total_declared", "research_area_declared"],
+      "response_zh": "提案严格遵循公告定义的三层范围（统筹研究43.6km²、总体设计11.4km²、重点区域368.4ha）和六项设计任务，所有空间建议和指标均标注为概念性，不构成法定规划结论。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "title_zh": "面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录",
+      "issuing_authority_zh": "用户提供清权任务书",
+      "source_status": "user_provided_cleared",
+      "mandatory_for_formal": true,
+      "proposal_sections_cited": ["design_concept", "ecosystem_design", "ai_scenarios", "public_space_design", "culture_narrative", "annual_events"],
+      "geometry_files_cited": [],
+      "metrics_cited": ["ai_scenario_nodes", "ai_landmark_count", "scenario_cards_count", "industry_test_scenarios", "persona_types"],
+      "response_zh": "提案完整回应了agent.1-6六项任务，包含命名体系、6个全球AI生态案例、12张场景卡、3个测试场景、6类用户画像、3个朝圣地标、文化叙事、年度活动体系等全部要求输出。十条共创原则在边界条款和版权声明中明确体现。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "title_zh": "城市设计管理办法",
+      "issuing_authority_zh": "中华人民共和国住房和城乡建设部",
+      "source_status": "official_public",
+      "mandatory_for_formal": true,
+      "proposal_sections_cited": ["urban_character", "public_space", "architecture_guidance", "municipal_coordination"],
+      "geometry_files_cited": ["geometry/green_space.geojson", "geometry/public_space.geojson"],
+      "metrics_cited": ["green_ratio", "public_space_ratio"],
+      "response_zh": "提案统筹了平面和立体空间、公共空间、建筑高度体量风格色彩等控制要求，提出了城市风貌管控引导方向，符合城市设计管理办法的专业要求。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "title_zh": "城市、镇控制性详细规划编制审批办法",
+      "issuing_authority_zh": "中华人民共和国住房和城乡建设部",
+      "source_status": "official_public",
+      "mandatory_for_formal": true,
+      "proposal_sections_cited": ["land_use", "building_scale", "regulatory_depth", "implementation_policy"],
+      "geometry_files_cited": ["geometry/land_use.geojson", "geometry/phasing.geojson"],
+      "metrics_cited": ["site_area", "land_use_research", "land_use_commercial", "land_use_residential"],
+      "response_zh": "提案达到控制性详细规划的城市设计深度，明确区分了已知控制条件（公告面积）、设计建议（用地布局、建筑概念）和待确认事项（容积率、建筑高度等控规条件），符合控规办法要求。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION",
+      "title_zh": "国土空间调查、规划、用途管制用地用海分类指南",
+      "issuing_authority_zh": "中华人民共和国自然资源部",
+      "source_status": "official_public",
+      "mandatory_for_formal": true,
+      "proposal_sections_cited": ["land_use"],
+      "geometry_files_cited": ["geometry/land_use.geojson"],
+      "metrics_cited": ["land_use_research", "land_use_commercial", "land_use_residential", "land_use_public_service", "land_use_green", "land_use_transit", "land_use_reserve"],
+      "response_zh": "提案用地分类采用MNR指南的标准代码（07、08、05、12、14、16），未使用自造分类。用地代码与国土空间分类一致。"
+    }
+  ]
+}

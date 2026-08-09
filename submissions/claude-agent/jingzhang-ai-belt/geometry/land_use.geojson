@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-JZY-01",
+      "properties": {
+        "id": "LU-JZY-01",
+        "layer": "LAND_USE",
+        "land_use_code": "0802",
+        "land_use_label_zh": "科研用地（众智园核心）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 1981349.61,
+        "name_zh": "科研用地（众智园核心）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              40.007
+            ],
+            [
+              116.354,
+              40.007
+            ],
+            [
+              116.354,
+              40.026
+            ],
+            [
+              116.343,
+              40.026
+            ],
+            [
+              116.343,
+              40.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-JZY-02",
+      "properties": {
+        "id": "LU-JZY-02",
+        "layer": "LAND_USE",
+        "land_use_code": "0501",
+        "land_use_label_zh": "商务用地（众智园商务）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 199120.63,
+        "name_zh": "商务用地（众智园商务）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              40.0
+            ],
+            [
+              116.343,
+              40.0
+            ],
+            [
+              116.343,
+              40.007
+            ],
+            [
+              116.34,
+              40.007
+            ],
+            [
+              116.34,
+              40.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-BYD-01",
+      "properties": {
+        "id": "LU-BYD-01",
+        "layer": "LAND_USE",
+        "land_use_code": "0802",
+        "land_use_label_zh": "科研用地（AI原点社区核心）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 1043229.39,
+        "name_zh": "科研用地（AI原点社区核心）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.342,
+              39.984
+            ],
+            [
+              116.353,
+              39.984
+            ],
+            [
+              116.353,
+              39.994
+            ],
+            [
+              116.342,
+              39.994
+            ],
+            [
+              116.342,
+              39.984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-BYD-02",
+      "properties": {
+        "id": "LU-BYD-02",
+        "layer": "LAND_USE",
+        "land_use_code": "0701",
+        "land_use_label_zh": "居住用地（AI原点社区居住）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 170733.89,
+        "name_zh": "居住用地（AI原点社区居住）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              39.975
+            ],
+            [
+              116.342,
+              39.975
+            ],
+            [
+              116.342,
+              39.984
+            ],
+            [
+              116.34,
+              39.984
+            ],
+            [
+              116.34,
+              39.975
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-DZS-01",
+      "properties": {
+        "id": "LU-DZS-01",
+        "layer": "LAND_USE",
+        "land_use_code": "0501",
+        "land_use_label_zh": "商务用地（大钟寺核心）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 740191.84,
+        "name_zh": "商务用地（大钟寺核心）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.342,
+              39.944
+            ],
+            [
+              116.355,
+              39.944
+            ],
+            [
+              116.355,
+              39.95
+            ],
+            [
+              116.342,
+              39.95
+            ],
+            [
+              116.342,
+              39.944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-DZS-02",
+      "properties": {
+        "id": "LU-DZS-02",
+        "layer": "LAND_USE",
+        "land_use_code": "0504",
+        "land_use_label_zh": "娱乐用地（大钟寺商业娱乐）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 616875.35,
+        "name_zh": "娱乐用地（大钟寺商业娱乐）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.342,
+              39.939
+            ],
+            [
+              116.355,
+              39.939
+            ],
+            [
+              116.355,
+              39.944
+            ],
+            [
+              116.342,
+              39.944
+            ],
+            [
+              116.342,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-CORRIDOR-01",
+      "properties": {
+        "id": "LU-CORRIDOR-01",
+        "layer": "LAND_USE",
+        "land_use_code": "1401",
+        "land_use_label_zh": "公园绿地（京张遗址公园）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 1621994.59,
+        "name_zh": "公园绿地（京张遗址公园）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.341,
+              39.95
+            ],
+            [
+              116.344,
+              39.95
+            ],
+            [
+              116.344,
+              40.007
+            ],
+            [
+              116.341,
+              40.007
+            ],
+            [
+              116.341,
+              39.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-SUPPORT-01",
+      "properties": {
+        "id": "LU-SUPPORT-01",
+        "layer": "LAND_USE",
+        "land_use_code": "0804",
+        "land_use_label_zh": "教育用地（高校配套）",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 189677.78,
+        "name_zh": "教育用地（高校配套）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.353,
+              39.984
+            ],
+            [
+              116.355,
+              39.984
+            ],
+            [
+              116.355,
+              39.994
+            ],
+            [
+              116.353,
+              39.994
+            ],
+            [
+              116.353,
+              39.984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-SUPPORT-02",
+      "properties": {
+        "id": "LU-SUPPORT-02",
+        "layer": "LAND_USE",
+        "land_use_code": "0702",
+        "land_use_label_zh": "社区服务设施用地",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 94861.73,
+        "name_zh": "社区服务设施用地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              39.97
+            ],
+            [
+              116.34,
+              39.975
+            ],
+            [
+              116.342,
+              39.975
+            ],
+            [
+              116.342,
+              39.97
+            ],
+            [
+              116.34,
+              39.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-TRANSIT-01",
+      "properties": {
+        "id": "LU-TRANSIT-01",
+        "layer": "LAND_USE",
+        "land_use_code": "1207",
+        "land_use_label_zh": "交通设施用地",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 248974.37,
+        "name_zh": "交通设施用地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.355,
+              39.939
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.355,
+              40.0265
+            ],
+            [
+              116.355,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-RESERVE-01",
+      "properties": {
+        "id": "LU-RESERVE-01",
+        "layer": "LAND_USE",
+        "land_use_code": "16",
+        "land_use_label_zh": "留白用地",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 4865976.9,
+        "name_zh": "留白用地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.344,
+              39.95
+            ],
+            [
+              116.353,
+              39.95
+            ],
+            [
+              116.353,
+              40.007
+            ],
+            [
+              116.344,
+              40.007
+            ],
+            [
+              116.344,
+              39.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-RESERVE-02",
+      "properties": {
+        "id": "LU-RESERVE-02",
+        "layer": "LAND_USE",
+        "land_use_code": "16",
+        "land_use_label_zh": "留白用地",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-LANDUSE-20260809",
+        "source_title": "AI智能体基于设计任务书生成的概念用地布局",
+        "area_sqm_declared": 189757.63,
+        "name_zh": "留白用地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              39.95
+            ],
+            [
+              116.341,
+              39.95
+            ],
+            [
+              116.341,
+              39.97
+            ],
+            [
+              116.34,
+              39.97
+            ],
+            [
+              116.34,
+              39.95
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

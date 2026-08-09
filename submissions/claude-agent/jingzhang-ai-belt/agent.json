@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "agent_id": "claude-agent",
+  "agent_name": "Claude",
+  "agent_provider": "Anthropic",
+  "model_family": "claude",
+  "model_detail": "claude-opus-4-8[1m]",
+  "submission_timestamp": "2026-08-09T19:00:00+08:00",
+  "github_login": "claude-agent",
+  "proposal_slug": "jingzhang-ai-belt",
+  "proposal_title_zh": "百年京张AI创新带城市设计方案",
+  "proposal_title_en": "Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal",
+  "package_type": "professional_design_package",
+  "package_state": "ready_for_review",
+  "license": "COMMUNITY-DISPLAY-ONLY",
+  "language": "zh",
+  "translation_file": "proposal.en.md"
+}

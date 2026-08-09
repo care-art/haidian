@@ -1,0 +1,363 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "proposal_id": "claude-agent/jingzhang-ai-belt",
+  "generated_date": "2026-08-09",
+  "coordinate_system": {
+    "geojson_crs": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4548"
+  },
+  "metrics": {
+    "site_area": {
+      "status": "known",
+      "value": 11412825,
+      "unit": "sqm",
+      "source_files": ["geometry/site_boundary.geojson"],
+      "formula": "polygon_area(SITE-001, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": ["使用临时粗略边界PROV-SITE-001计算，正式边界待官方数据补齐后重新计算"]
+    },
+    "site_area_declared": {
+      "status": "known",
+      "value": 11400000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约11.4平方公里"]
+    },
+    "zhongzhiyuan_area": {
+      "status": "known",
+      "value": 1929202,
+      "unit": "sqm",
+      "source_files": ["geometry/key_areas.geojson#zhongzhiyuan_ai_acceleration_area"],
+      "formula": "polygon_area(PROV-KEY-001, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": ["使用临时边界，正式边界待官方数据补齐"]
+    },
+    "zhongzhiyuan_area_declared": {
+      "status": "known",
+      "value": 1921000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约192.1公顷"]
+    },
+    "beijing_ai_origin_area": {
+      "status": "known",
+      "value": 1043237,
+      "unit": "sqm",
+      "source_files": ["geometry/key_areas.geojson#beijing_ai_origin_community"],
+      "formula": "polygon_area(PROV-KEY-002, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": ["使用临时边界"]
+    },
+    "beijing_ai_origin_area_declared": {
+      "status": "known",
+      "value": 1043000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约104.3公顷"]
+    },
+    "dazhongsi_area": {
+      "status": "known",
+      "value": 720454,
+      "unit": "sqm",
+      "source_files": ["geometry/key_areas.geojson#dazhongsi_ai_industry_cluster"],
+      "formula": "polygon_area(PROV-KEY-003, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": ["使用临时边界"]
+    },
+    "dazhongsi_area_declared": {
+      "status": "known",
+      "value": 720000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约72.0公顷"]
+    },
+    "key_areas_total": {
+      "status": "known",
+      "value": 3692893,
+      "unit": "sqm",
+      "source_files": ["geometry/key_areas.geojson"],
+      "formula": "sum(zhongzhiyuan_area + beijing_ai_origin_area + dazhongsi_area)",
+      "confidence": "medium",
+      "assumptions": ["三个重点区域面积之和"]
+    },
+    "key_areas_total_declared": {
+      "status": "known",
+      "value": 3684000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约368.4公顷"]
+    },
+    "research_area_declared": {
+      "status": "known",
+      "value": 43600000,
+      "unit": "sqm",
+      "source_files": ["brief/site-package/design_brief.json"],
+      "formula": "official_announcement_value",
+      "confidence": "high",
+      "assumptions": ["公告公布的约43.6平方公里"]
+    },
+    "land_use_research": {
+      "status": "known",
+      "value": 3024579,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "sum(LU-JZY-01, LU-BYD-01)",
+      "confidence": "medium",
+      "assumptions": ["概念设计用地，待正式控规条件确认"]
+    },
+    "land_use_commercial": {
+      "status": "known",
+      "value": 1480264,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "sum(LU-JZY-02, LU-DZS-01, LU-DZS-02)",
+      "confidence": "medium",
+      "assumptions": ["概念设计用地"]
+    },
+    "land_use_residential": {
+      "status": "known",
+      "value": 170734,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "polygon_area(LU-BYD-02)",
+      "confidence": "medium",
+      "assumptions": ["概念设计用地"]
+    },
+    "land_use_public_service": {
+      "status": "known",
+      "value": 284540,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "sum(LU-SUPPORT-01, LU-SUPPORT-02)",
+      "confidence": "medium",
+      "assumptions": ["概念设计用地"]
+    },
+    "land_use_green": {
+      "status": "known",
+      "value": 1621995,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "polygon_area(LU-CORRIDOR-01)",
+      "confidence": "medium",
+      "assumptions": ["京张遗址公园绿地，概念设计"]
+    },
+    "land_use_transit": {
+      "status": "known",
+      "value": 248974,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "polygon_area(LU-TRANSIT-01)",
+      "confidence": "medium",
+      "assumptions": ["概念设计用地"]
+    },
+    "land_use_reserve": {
+      "status": "known",
+      "value": 5055735,
+      "unit": "sqm",
+      "source_files": ["geometry/land_use.geojson"],
+      "formula": "sum(LU-RESERVE-01, LU-RESERVE-02)",
+      "confidence": "medium",
+      "assumptions": ["留白用地，为未来AI产业发展预留弹性空间"]
+    },
+    "green_space_total": {
+      "status": "known",
+      "value": 1094000,
+      "unit": "sqm",
+      "source_files": ["geometry/green_space.geojson"],
+      "formula": "sum(GS-001, GS-002, GS-003)",
+      "confidence": "medium",
+      "assumptions": ["概念设计绿地系统"]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 9.58,
+      "unit": "percent",
+      "source_files": ["geometry/green_space.geojson", "geometry/site_boundary.geojson"],
+      "formula": "green_space_total / site_area * 100",
+      "confidence": "medium",
+      "assumptions": ["概念设计绿地率，正式绿地率待控规条件确认"]
+    },
+    "public_space_total": {
+      "status": "known",
+      "value": 330000,
+      "unit": "sqm",
+      "source_files": ["geometry/public_space.geojson"],
+      "formula": "sum(PS-001, PS-002)",
+      "confidence": "medium",
+      "assumptions": ["概念设计公共活动空间"]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 2.89,
+      "unit": "percent",
+      "source_files": ["geometry/public_space.geojson", "geometry/site_boundary.geojson"],
+      "formula": "public_space_total / site_area * 100",
+      "confidence": "medium",
+      "assumptions": ["概念设计公共空间占比"]
+    },
+    "total_floor_area": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [],
+      "formula": "pending_official_regulatory_conditions",
+      "confidence": "unknown",
+      "assumptions": ["总建筑规模待正式控规条件确认后确定", "概念设计阶段不提供法定建筑规模指标"]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [],
+      "formula": "pending_official_regulatory_conditions",
+      "confidence": "unknown",
+      "assumptions": ["容积率待正式控规条件确认后确定", "概念设计阶段不提供法定容积率指标"]
+    },
+    "building_density": {
+      "status": "unknown",
+      "value": null,
+      "unit": "percent",
+      "source_files": [],
+      "formula": "pending_official_regulatory_conditions",
+      "confidence": "unknown",
+      "assumptions": ["建筑密度待正式控规条件确认后确定"]
+    },
+    "building_base_area": {
+      "status": "known",
+      "value": 470000,
+      "unit": "sqm",
+      "source_files": ["geometry/buildings.geojson"],
+      "formula": "sum(floor_area_sqm for all building features)",
+      "confidence": "low",
+      "assumptions": ["概念设计建筑基底面积估算，非正式数据"]
+    },
+    "road_area": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [],
+      "formula": "pending_official_road_redline_data",
+      "confidence": "unknown",
+      "assumptions": ["道路面积待正式道路红线数据确认后计算"]
+    },
+    "phasing_phase1_area": {
+      "status": "known",
+      "value": 1200000,
+      "unit": "sqm",
+      "source_files": ["geometry/phasing.geojson#PHASE-1"],
+      "formula": "polygon_area(PHASE-1)",
+      "confidence": "medium",
+      "assumptions": ["概念分期面积"]
+    },
+    "phasing_phase2_area": {
+      "status": "known",
+      "value": 1400000,
+      "unit": "sqm",
+      "source_files": ["geometry/phasing.geojson#PHASE-2"],
+      "formula": "polygon_area(PHASE-2)",
+      "confidence": "medium",
+      "assumptions": ["概念分期面积"]
+    },
+    "phasing_phase3_area": {
+      "status": "known",
+      "value": 1084000,
+      "unit": "sqm",
+      "source_files": ["geometry/phasing.geojson#PHASE-3"],
+      "formula": "polygon_area(PHASE-3)",
+      "confidence": "medium",
+      "assumptions": ["概念分期面积"]
+    },
+    "key_areas_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": ["geometry/key_areas.geojson"],
+      "formula": "count_features(KEY_AREA)",
+      "confidence": "high",
+      "assumptions": ["公告明确三处重点区域"]
+    },
+    "ai_scenario_nodes": {
+      "status": "known",
+      "value": 15,
+      "unit": "count",
+      "source_files": [],
+      "formula": "agent_design_proposal",
+      "confidence": "low",
+      "assumptions": ["AI智能体概念设计的AI场景节点数量"]
+    },
+    "ai_landmark_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [],
+      "formula": "agent_design_proposal",
+      "confidence": "medium",
+      "assumptions": ["AI智能体概念设计的AI朝圣地标数量"]
+    },
+    "scenario_cards_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [],
+      "formula": "agent_design_proposal",
+      "confidence": "high",
+      "assumptions": ["AI智能体设计的AI场景卡数量（≥10张要求）"]
+    },
+    "industry_test_scenarios": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [],
+      "formula": "agent_design_proposal",
+      "confidence": "high",
+      "assumptions": ["AI智能体设计的产业测试验证场景数量（≥3个要求）"]
+    },
+    "persona_types": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [],
+      "formula": "agent_design_proposal",
+      "confidence": "high",
+      "assumptions": ["AI智能体设计的用户画像类型数量（≥5类要求）"]
+    },
+    "ai_innovation_index": {
+      "status": "unknown",
+      "value": null,
+      "unit": "index",
+      "source_files": [],
+      "formula": "composite_indicator_pending_official_baseline",
+      "confidence": "unknown",
+      "assumptions": ["AI创新指数为概念性指标，需官方基线数据后校准"]
+    },
+    "talent_density_target": {
+      "status": "unknown",
+      "value": null,
+      "unit": "persons_per_sqkm",
+      "source_files": [],
+      "formula": "pending_official_talent_strategy",
+      "confidence": "unknown",
+      "assumptions": ["人才密度目标需结合官方产业人才战略确定"]
+    },
+    "ai_industry_space_target": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [],
+      "formula": "pending_official_industry_plan",
+      "confidence": "unknown",
+      "assumptions": ["AI产业空间规模目标需结合官方产业规划确定"]
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-JZY-01",
+      "properties": {
+        "id": "BLD-JZY-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——众智园AI研发中心",
+        "name_zh": "众智园AI研发中心",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 80000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.33651471862576,
+              40.009343145750506
+            ],
+            [
+              116.35348528137423,
+              40.009343145750506
+            ],
+            [
+              116.35348528137423,
+              40.020656854249495
+            ],
+            [
+              116.33651471862576,
+              40.020656854249495
+            ],
+            [
+              116.33651471862576,
+              40.009343145750506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-JZY-02",
+      "properties": {
+        "id": "BLD-JZY-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——众智园AI实验室",
+        "name_zh": "众智园AI实验室",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 60000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34265153077165,
+              40.01310102051443
+            ],
+            [
+              116.35734846922834,
+              40.01310102051443
+            ],
+            [
+              116.35734846922834,
+              40.02289897948557
+            ],
+            [
+              116.34265153077165,
+              40.02289897948557
+            ],
+            [
+              116.34265153077165,
+              40.01310102051443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-JZY-03",
+      "properties": {
+        "id": "BLD-JZY-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——众智园创新孵化楼",
+        "name_zh": "众智园创新孵化楼",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 45000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.33963603896933,
+              40.00575735931288
+            ],
+            [
+              116.35236396103068,
+              40.00575735931288
+            ],
+            [
+              116.35236396103068,
+              40.014242640687115
+            ],
+            [
+              116.33963603896933,
+              40.014242640687115
+            ],
+            [
+              116.33963603896933,
+              40.00575735931288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-BYD-01",
+      "properties": {
+        "id": "BLD-BYD-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——AI原点社区孵化器",
+        "name_zh": "AI原点社区孵化器",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 55000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.33696437636026,
+              39.983309584240175
+            ],
+            [
+              116.35103562363973,
+              39.983309584240175
+            ],
+            [
+              116.35103562363973,
+              39.992690415759824
+            ],
+            [
+              116.33696437636026,
+              39.992690415759824
+            ],
+            [
+              116.33696437636026,
+              39.983309584240175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-BYD-02",
+      "properties": {
+        "id": "BLD-BYD-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——AI原点社区成果展示中心",
+        "name_zh": "AI原点社区成果展示中心",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 40000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              39.986000000000004
+            ],
+            [
+              116.355,
+              39.986000000000004
+            ],
+            [
+              116.355,
+              39.994
+            ],
+            [
+              116.343,
+              39.994
+            ],
+            [
+              116.343,
+              39.986000000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-BYD-03",
+      "properties": {
+        "id": "BLD-BYD-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——AI原点社区人才公寓",
+        "name_zh": "AI原点社区人才公寓",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 65000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.33435147072962,
+              39.976900980486406
+            ],
+            [
+              116.34964852927038,
+              39.976900980486406
+            ],
+            [
+              116.34964852927038,
+              39.98709901951359
+            ],
+            [
+              116.33435147072962,
+              39.98709901951359
+            ],
+            [
+              116.33435147072962,
+              39.976900980486406
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-DZS-01",
+      "properties": {
+        "id": "BLD-DZS-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——大钟寺AI总部大楼",
+        "name_zh": "大钟寺AI总部大楼",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 70000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3400627460668,
+              39.93970849737787
+            ],
+            [
+              116.35593725393319,
+              39.93970849737787
+            ],
+            [
+              116.35593725393319,
+              39.95029150262213
+            ],
+            [
+              116.3400627460668,
+              39.95029150262213
+            ],
+            [
+              116.3400627460668,
+              39.93970849737787
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-DZS-02",
+      "properties": {
+        "id": "BLD-DZS-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——大钟寺智能经济中心",
+        "name_zh": "大钟寺智能经济中心",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 50000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3452917960675,
+              39.941527864045
+            ],
+            [
+              116.35870820393251,
+              39.941527864045
+            ],
+            [
+              116.35870820393251,
+              39.950472135954996
+            ],
+            [
+              116.3452917960675,
+              39.950472135954996
+            ],
+            [
+              116.3452917960675,
+              39.941527864045
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-DZS-03",
+      "properties": {
+        "id": "BLD-DZS-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_design_proposal",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-BUILDINGS-20260809",
+        "source_title": "AI智能体概念设计的建筑基底——大钟寺AI体验商场",
+        "name_zh": "大钟寺AI体验商场",
+        "building_type": "commercial_research",
+        "floor_area_sqm": 35000,
+        "floors_conceptual": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34438751391983,
+              39.938258342613224
+            ],
+            [
+              116.35561248608016,
+              39.938258342613224
+            ],
+            [
+              116.35561248608016,
+              39.945741657386776
+            ],
+            [
+              116.34438751391983,
+              39.945741657386776
+            ],
+            [
+              116.34438751391983,
+              39.938258342613224
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

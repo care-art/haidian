@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PS-001",
+      "properties": {
+        "id": "PS-001",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-PUBLIC-20260809",
+        "source_title": "AI智能体概念设计的公共活动空间",
+        "area_sqm_declared": 285000,
+        "name_zh": "京张活力带公共活动空间"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34,
+              39.955
+            ],
+            [
+              116.355,
+              39.955
+            ],
+            [
+              116.355,
+              40.0
+            ],
+            [
+              116.34,
+              40.0
+            ],
+            [
+              116.34,
+              39.955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PS-002",
+      "properties": {
+        "id": "PS-002",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-PUBLIC-20260809",
+        "source_title": "大钟寺广场公共空间",
+        "area_sqm_declared": 45000,
+        "name_zh": "大钟寺广场公共空间"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.342,
+              39.942
+            ],
+            [
+              116.355,
+              39.942
+            ],
+            [
+              116.355,
+              39.948
+            ],
+            [
+              116.342,
+              39.948
+            ],
+            [
+              116.342,
+              39.942
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

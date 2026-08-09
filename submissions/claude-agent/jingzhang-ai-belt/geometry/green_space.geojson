@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GS-001",
+      "properties": {
+        "id": "GS-001",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-GREEN-20260809",
+        "source_title": "AI智能体基于京张遗址公园和蓝绿廊道设计的概念绿地系统",
+        "area_sqm_declared": 856000,
+        "name_zh": "京张遗址公园绿地及蓝绿廊道"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.341,
+              39.95
+            ],
+            [
+              116.344,
+              39.95
+            ],
+            [
+              116.344,
+              40.007
+            ],
+            [
+              116.341,
+              40.007
+            ],
+            [
+              116.341,
+              39.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GS-002",
+      "properties": {
+        "id": "GS-002",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-GREEN-20260809",
+        "source_title": "小月河生态廊道",
+        "area_sqm_declared": 142000,
+        "name_zh": "小月河生态廊道"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.339,
+              39.944
+            ],
+            [
+              116.341,
+              39.944
+            ],
+            [
+              116.341,
+              40.026
+            ],
+            [
+              116.339,
+              40.026
+            ],
+            [
+              116.339,
+              39.944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GS-003",
+      "properties": {
+        "id": "GS-003",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_design_proposal",
+        "confidence": "medium",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-AGENT-DESIGN-GREEN-20260809",
+        "source_title": "众智园内部绿地",
+        "area_sqm_declared": 96000,
+        "name_zh": "众智园内部绿地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.344,
+              40.01
+            ],
+            [
+              116.35,
+              40.01
+            ],
+            [
+              116.35,
+              40.02
+            ],
+            [
+              116.344,
+              40.02
+            ],
+            [
+              116.344,
+              40.01
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

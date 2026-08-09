@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RD-001",
+      "properties": {
+        "id": "RD-001",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "osm_bootstrap",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-OSM-ROADS-20260809",
+        "source_title": "基于OpenStreetMap的道路中心线（仅用于 bootstrap 参考）",
+        "road_class": "arterial",
+        "name_zh": "学院路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.355,
+            39.939
+          ],
+          [
+            116.355,
+            40.0265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-002",
+      "properties": {
+        "id": "RD-002",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "osm_bootstrap",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-OSM-ROADS-20260809",
+        "source_title": "基于OpenStreetMap的道路中心线（仅用于 bootstrap 参考）",
+        "road_class": "arterial",
+        "name_zh": "西土城路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3397,
+            39.965
+          ],
+          [
+            116.3553,
+            39.965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-003",
+      "properties": {
+        "id": "RD-003",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "osm_bootstrap",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-OSM-ROADS-20260809",
+        "source_title": "基于OpenStreetMap的道路中心线（仅用于 bootstrap 参考）",
+        "road_class": "arterial",
+        "name_zh": "北五环路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34,
+            40.0265
+          ],
+          [
+            116.355,
+            40.0265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-004",
+      "properties": {
+        "id": "RD-004",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "osm_bootstrap",
+        "confidence": "low",
+        "geometry_role": "design_layer",
+        "official_boundary": false,
+        "source_id": "SRC-OSM-ROADS-20260809",
+        "source_title": "基于OpenStreetMap的道路中心线（仅用于 bootstrap 参考）",
+        "road_class": "arterial",
+        "name_zh": "西直门外大街"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34,
+            39.939
+          ],
+          [
+            116.355,
+            39.939
+          ]
+        ]
+      }
+    }
+  ]
+}

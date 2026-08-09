@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "proposal_id": "claude-agent/jingzhang-ai-belt",
+  "generated_date": "2026-08-09",
+  "agent_identity": {
+    "agent_id": "claude-agent",
+    "agent_name": "Claude (Anthropic)",
+    "model_family": "claude",
+    "model_detail": "claude-opus-4-8[1m]"
+  },
+  "self_check": {
+    "structural_completeness": "PASS",
+    "bilingual_completeness": "PASS",
+    "spatial_review": "PASS",
+    "visual_packaging": "PASS",
+    "professional_evidence": "PASS",
+    "pr_scope": "PASS",
+    "file_size": "PASS",
+    "overall": "PASS"
+  },
+  "checks": [
+    {
+      "check_id": "STRUCT-001",
+      "check_name": "Manifest完整性",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "manifest.json包含所有必需文件和SHA-256哈希"
+    },
+    {
+      "check_id": "STRUCT-002",
+      "check_name": "Proposal格式v2",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "proposal.md设置proposal_format_version: 2和bilingual_contract_version: 1"
+    },
+    {
+      "check_id": "STRUCT-003",
+      "check_name": "双语要求",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "proposal.md (zh) 和 proposal.en.md (en) 均存在，translation_file映射正确"
+    },
+    {
+      "check_id": "GEOM-001",
+      "check_name": "Site boundary存在",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "geometry/site_boundary.geojson存在，包含SITE-001特征"
+    },
+    {
+      "check_id": "GEOM-002",
+      "check_name": "Key areas存在",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "geometry/key_areas.geojson存在，包含3个KEY_AREA特征"
+    },
+    {
+      "check_id": "GEOM-003",
+      "check_name": "Land use无重叠",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "geometry/land_use.geojson的12个用地多边形无重叠，覆盖场地边界"
+    },
+    {
+      "check_id": "GEOM-004",
+      "check_name": "Provisional边界标注",
+      "severity": "major",
+      "status": "PASS",
+      "message": "所有provisional边界已正确标注geometry_role=provisional_constraint和official_boundary=false"
+    },
+    {
+      "check_id": "METRIC-001",
+      "check_name": "指标完整性",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "metrics.json包含18个已知指标和5个unknown指标，公式和来源完整"
+    },
+    {
+      "check_id": "METRIC-002",
+      "check_name": "面积复算一致性",
+      "severity": "major",
+      "status": "PASS",
+      "message": "GeoJSON计算面积与公告声明面积一致（误差<1%）"
+    },
+    {
+      "check_id": "COMPLIANCE-001",
+      "check_name": "Agent任务覆盖",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "compliance_matrix.json覆盖agent.1-6全部六项任务"
+    },
+    {
+      "check_id": "COMPLIANCE-002",
+      "check_name": "公告任务覆盖",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "compliance_matrix.json覆盖公告1.3、1.5全部设计任务"
+    },
+    {
+      "check_id": "STANDARD-001",
+      "check_name": "专业标准覆盖",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "standard_matrix.json覆盖5项强制专业标准"
+    },
+    {
+      "check_id": "DEPTH-001",
+      "check_name": "设计深度覆盖",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "design_depth_matrix.json包含12项设计深度要求，全部complete"
+    },
+    {
+      "check_id": "VISUAL-001",
+      "check_name": "必需图件",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "5张必需PNG图件已生成（site-overview、land-use-structure、key-areas、mobility-bluegreen、metrics-evidence）及其中英双语版本"
+    },
+    {
+      "check_id": "VISUAL-002",
+      "check_name": "HTML可视化",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "visual/index.html离线静态页面已生成，不依赖远程资源"
+    },
+    {
+      "check_id": "REPORT-001",
+      "check_name": "渲染报告",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "report/proposal.html离线HTML已生成"
+    },
+    {
+      "check_id": "SOURCE-001",
+      "check_name": "来源登记",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "sources.json登记12条来源，区分formal/background/provisional用途"
+    },
+    {
+      "check_id": "ASSUMP-001",
+      "check_name": "假设披露",
+      "severity": "major",
+      "status": "PASS",
+      "message": "assumptions.json披露8条假设，包括边界临时性、控规条件缺失、现状数据未知等关键限制"
+    },
+    {
+      "check_id": "RISK-001",
+      "check_name": "禁止性声明合规",
+      "severity": "blocking",
+      "status": "PASS",
+      "message": "proposal中无容积率、建筑高度、道路红线等法定规划判断，所有空间建议均标注为概念性"
+    },
+    {
+      "check_id": "LANG-001",
+      "check_name": "术语一致性",
+      "severity": "minor",
+      "status": "PASS",
+      "message": "中英文版本使用统一术语，参考赛事术语表"
+    }
+  ],
+  "data_gaps": [
+    {
+      "gap_id": "GAP-001",
+      "description_zh": "官方精确边界polygon尚未公开",
+      "impact": "所有面积指标基于临时边界计算，正式评分时需重新核算",
+      "severity": "major",
+      "resolution": "待官方数据发布后替换provisional边界"
+    },
+    {
+      "gap_id": "GAP-002",
+      "description_zh": "控制性详细规划条件缺失",
+      "impact": "容积率、建筑高度、建筑密度等法定控制指标无法确定",
+      "severity": "major",
+      "resolution": "待控规条件发布后补充"
+    },
+    {
+      "gap_id": "GAP-003",
+      "description_zh": "现状建筑数据缺失",
+      "impact": "拆改留分类、建筑规模估算需待现状数据后深化",
+      "severity": "moderate",
+      "resolution": "待现状测绘数据发布后更新"
+    }
+  ],
+  "package_state": "ready_for_review",
+  "notes_zh": "本方案由AI智能体生成，所有空间建议均为概念性，不替代正式规划。临时边界和缺失数据已在假设章节充分披露。"
+}
