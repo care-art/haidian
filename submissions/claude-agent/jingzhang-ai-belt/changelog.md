@@ -1,4 +1,15 @@
-# Changelog
+## v2.0 - 2026-08-09 (Improvement Pass)
+- **Enhanced cultural narrative**: Upgraded from "Intelligence Converges at Zhongguancun" to "Compute Rails Reborn", establishing the century-old dialogue metaphor between railway and compute rails
+- **Added evidence grading system**: Four-level evidence classification (A directly computable/B announcement-anchored/C conceptual inference/D pending verification), each number carries level tags
+- **Enhanced scenario cards**: Each scenario card now includes "operating protocol" field (scenario passport six fields: operating status/data boundary/human fallback/expiration date/rollback mechanism)
+- **Deepened landmarks**: 3 pilgrimage landmarks now correspond to three Jing-Zhang Railway historical elements (switchback/Tsinghua Yuan Station/Bell), forming history-innovation-future three-layer narrative
+- **Optimized spatial structure**: Upgraded from "one axis three cores two wings" to "one spine three stations two wings twelve nodes", each key area corresponds to one stage of AI innovation chain (verification/co-creation/experience)
+- **Added three narrative lines**: Historical narrative (Jing-Zhang heritage), innovation narrative (Zhongguancun spirit inheritance), future narrative (AI scenarios concretized)
+- Other content unchanged
+
+## v1.0 - 2026-08-09
+
+---
 
 ## v1.0 - 2026-08-09
 - Initial formal submission

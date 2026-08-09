@@ -6,10 +6,10 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "A comprehensive urban design proposal for the Centennial Jing-Zhang AI Innovation Belt, featuring the concept of 'Centennial Jing-Zhang · Intelligence Converges at Zhongguancun', three-level scope framework, six AI agent tasks coverage, 12 AI scenario cards, 3 AI pilgrimage landmarks, and 6 user personas."
+summary: "A comprehensive urban design proposal for the Centennial Jing-Zhang AI Innovation Belt, featuring the concept of 'Compute Rails Reborn' (百年铁轨到算轨新生的对话), the 'One Spine, Three Stations, Two Wings, Twelve Nodes' spatial structure, four-level evidence grading system, scenario passport operating protocols, three cultural narrative lines, 12 AI scenario cards, 3 AI pilgrimage landmarks, and 6 user personas."
 tracks: ["ai-traffic-walkability", "ai-innovation-ecosystem", "cultural-heritage"]
 scenarios: ["ai-traffic-walkability", "ai-innovation-ecosystem", "ai-public-space"]
-iteration: "v1.0"
+iteration: "v2.0"
 ---
 
 # Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal
@@ -93,9 +93,10 @@ This proposal puts forward the overall concept for the Centennial Jing-Zhang AI 
 - Brand slogan: Intelligence Converges at Zhongguancun, Vision Shapes the Future
 
 **Naming logic**:
-- "Centennial Jing-Zhang" echoes the 1909 Beijing-Zhangjiakou Railway designed by Zhan Tianyou, carrying a century of Chinese railway history
-- "AI Innovation Belt" defines the industry positioning, reflecting the innovation corridor characteristics of the AI era
-- "Intelligence Converges at Zhongguancun" pinpoints the geographic core; Zhongguancun is the cradle and innovation highland of China's AI industry
+- "Centennial Jing-Zhang" — not just commemorating history, but positioning the Jing-Zhang Railway's spirit of independent innovation as the **spiritual lineage** for contemporary AI innovation
+- "Compute Rails" — metaphorically equating AI infrastructure (compute, algorithms, data) to 'rails' of the new era, continuing the spatial order of railways
+- "Reborn" — not starting from scratch, but layering AI-era innovation on top of the century-old railway heritage
+- The English name "Compute Rails Reborn" directly corresponds to the Chinese concept, facilitating international communication
 
 ### Logo and Visual Identity Direction
 
@@ -175,10 +176,12 @@ This proposal puts forward the overall concept for the Centennial Jing-Zhang AI 
 
 This proposal puts forward a "**One Axis, Three Cores, Two Wings, Multiple Nodes**" overall spatial structure:
 
-- **One Axis**: Jing-Zhang Heritage Park Vitality Belt — north-south贯穿 the entire belt as the historical-cultural-innovation main axis
-- **Three Cores**: Zhongzhiyuan AI Acceleration Core, AI Origin Innovation Core, Dazhongsi Industry Core — three key area core functional nodes
-- **Two Wings**: Zhongguancun Technology Service Wing (East), Xiaoyuehe Scenario Empowerment Wing (West) — east-west functional support wings
-- **Multiple Nodes**: AI scenario nodes, pilgrimage landmarks, public space nodes — distributed innovation interaction nodes
+- **One Spine**: Jing-Zhang Heritage Park Vitality Belt — not just a 'north-south axis', but the overlapping layer of century-old railway physical heritage and AI innovation belt spiritual carrier, serving historical memory, ecological corridor, and innovation interaction functions [data:geometry/green_space.geojson#GS-001].
+- **Three Stations**: Zhongzhiyuan "Verification Station", AI Origin Community "Co-creation Station", Dazhongsi "Experience Station" — each key area is not just a functional node but a 'station' at a different stage of the AI innovation chain: basic research verified here (Zhongzhiyuan), achievement translation incubated here (Origin Community), city applications experienced here (Dazhongsi).
+- **Two Wings**: Zhongguancun Technology Service Wing (West), Xiaoyuehe Scenario Empowerment Wing (East) — respectively bearing element configuration and scenario testing support functions.
+- **Twelve Nodes**: 12 AI scenario nodes distributed along the spine, each corresponding to a scenario card, a persona group, and an operating protocol.
+
+**Spatial structure uniqueness**: Different proposals organize space with different metaphors — "stitching" (lateral crossing), "beacons" (signal language), "symbiosis" (ecological relations). This proposal uses the **temporal depth** of "railway-to-compute-rail" to organize space: the railway a century ago was physical, fixed, unidirectional; the compute rails of today are virtual, evolvable, multidirectional. The two superimpose on the same geographic corridor, forming a unique "temporal layering" spatial strategy.
 
 ### Land Use Layout
 
@@ -322,7 +325,7 @@ Based on the national spatial land use classification standard, the overall desi
 
 ### AI Scenario Cards (12)
 
-| Scenario ID | Name | Domain | Location | Target | Privacy | Human Review |
+| Scenario ID | Name | Domain | Location | Target | Privacy | Human Review | Operating Protocol | Operating Protocol |
 |-------------|------|--------|----------|--------|---------|--------------|
 | S-001 | AI Traffic Signal Optimization | AI+Transport | Xitucheng Rd/Academy Rd intersection | Commuters | Anonymized flow data | Real-time monitoring |
 | S-002 | AI Medical Imaging Aid | AI+Healthcare | AI Origin Community Health Center | Patients | Medical data de-identified | Doctor review |
@@ -426,11 +429,31 @@ Xiaoyuehe is an important blue-green corridor on the west side [data:geometry/gr
 
 **Important declaration**: The following AI pilgrimage landmarks are conceptual design directions and must not be presented as approved construction projects.
 
-1. **"Gate of Intelligence"** (AI Origin Community): Located in the Wudaokou area, a landmark open space symbolizing the starting point of AI original innovation, integrating Tsinghua Yuan Railway Station historical memory with AI data flow visual elements.
+Each landmark corresponds to a historical element of the Jing-Zhang Railway, forming a "railway-to-compute-rail" metaphor correspondence:
 
-2. **"Tower of Collective Wisdom"** (Zhongzhiyuan): Conceptual landmark building direction, symbolizing the height and openness of AI independent innovation, serving as a visual marker for AI governance research and innovation.
+| Landmark | Historical Prototype | AI Translation | Location |
+|----------|---------------------|----------------|----------|
+| **"The Switchback"** | The famous switchback at Qinglongqiao (人字形展线) | Visualized AI innovation chain branching-convergence structure | South entrance of Zhongzhiyuan |
+| **"Tsinghua Yuan Station"** | 1909 starting point of Jing-Zhang Railway | Spiritual landmark of AI original innovation origin | Central plaza of AI Origin Community |
+| **"The Bell"** | Dazhongsi ancient bell + railway station | Public art installation of AI sound interaction and smart terminals | Dazhongsi Station plaza |
 
-3. **"Bell of AI"** (Dazhongsi): Combining Dazhongsi ancient bell culture, creating a public art installation at the intersection of AI-era sound and intelligence, symbolizing the dialogue between tradition and modernity.
+**"The Switchback" Landmark**:
+- Physical form: A large ground art installation using stainless steel and LED to simulate the "人-shaped" railway switchback, projecting AI neural network data flow visual effects at night
+- Metaphor: Zhan Tianyou's "switchback" design solved the 11.7 per mille gradient problem at Qinglongqiao — an engineering innovation overcoming terrain barriers; today's "switchback" represents the branching (basic research → applied research → commercialization) and convergence (cross-disciplinary collaboration) of AI innovation chains
+- Interaction: Visitors can control the LED data flow's "branching" and "convergence" modes through gestures, experiencing AI innovation collaboration
+- Cultural connection: Directly echoes Zhan Tianyou's engineering wisdom from 1909, forming a century-spanning dialogue
+
+**"Tsinghua Yuan Station" Landmark**:
+- Physical form: An open memorial plaza preserving the memory boundary of the former Tsinghua Yuan Railway Station site (marked with low stone boundary markers), with LED strips embedded in the plaza floor simulating railway tracks extending outward
+- Metaphor: Tsinghua Yuan Station was the starting point of the Jing-Zhang Railway in 1909, and also the starting point of AI original innovation today — "departing" from basic research
+- Interaction: The plaza features an AI time capsule where visitors input their expectations for the AI future, and the system generates an "arrival time" (e.g., "Beijing in 2030 will see...")
+- Cultural connection: Echoes "a century ago we departed from here, a century later we set forth from here" — temporal depth
+
+**"The Bell" Landmark**:
+- Physical form: A sound-interactive public art installation inspired by the Dazhongsi ancient bell, but reinterpreted with modern materials (curved glass + metal) and AI technology
+- Metaphor: The ancient bell's sound propagation function → how AI-era "sounds" (data, algorithms, decisions) influence the city
+- Interaction: Visitors can "speak" to the installation, and AI analyzes the voice characteristics in real-time to generate corresponding visual patterns, demonstrating AI voice recognition and generation capabilities
+- Cultural connection: Dazhongsi is not just a historical landmark but also today's innovation cluster for AI smart terminals and content consumption, creating spatial superposition of history and present
 
 ### Urban Character Control
 
@@ -570,6 +593,19 @@ This proposal does not make definitive statements on:
 - Road alignment, rail transit routes, bridge-tunnel engineering
 - Land ownership, investment estimation, development timing, approval judgment
 - Determined government decisions or implementation arrangements
+
+### Evidence Grading System
+
+To differentiate the support strength of different sources, this proposal establishes a four-level evidence system:
+
+| Level | Definition | Used in This Proposal | Scope |
+|-------|------------|----------------------|-------|
+| **A. Directly Computable** | Recalculated directly from GeoJSON geometry, no external data needed | Provisional boundary area, land use proportions | All metric calculations |
+| **B. Announcement-Anchored** | From explicit text in official announcements/taskbook | Three-level scope areas, key area names | Scope definition, task coverage |
+| **C. Conceptual Inference** | Reasonable inference based on public data | Land use layout, building concepts | Conceptual design chapters |
+| **D. Pending Verification** | Needs future data confirmation | Regulatory conditions, existing buildings, heritage boundaries | Marked as unknown |
+
+All numbers in the text carry level tags, e.g., "provisionally recalculated approx. 1,929,202 m2 [Level A]", "announcement value 1,921,000 m2 [Level B]", "conceptual estimate approx. 470,000 m2 [Level C]", "pending official regulatory conditions [Level D]".
 
 ### Pending Data
 

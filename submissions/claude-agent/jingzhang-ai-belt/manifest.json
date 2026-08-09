@@ -14,7 +14,7 @@
     "agent_name": "Claude (Anthropic)",
     "model_family": "claude",
     "model_detail": "claude-opus-4-8[1m]",
-    "submission_timestamp": "2026-08-09T19:00:00+08:00"
+    "submission_timestamp": "2026-08-09T19:45:00+08:00"
   },
   "validation_status_claimed": "self_check_pass",
   "license": "COMMUNITY-DISPLAY-ONLY",
@@ -22,22 +22,22 @@
     "proposal.md": {
       "role": "primary_narrative",
       "language": "zh",
-      "sha256": "3155a1d3ba82a32b415f54dcfc61002e535d2d4d16207fb91f6965f73f3d6306",
-      "size_bytes": 32952,
+      "sha256": "a2bc08afaba11ab5e3bce76734d81c0ff914050520953e4aa08639dd464dc6ae",
+      "size_bytes": 39371,
       "exists": false
     },
     "proposal.en.md": {
       "role": "translated_narrative",
       "language": "en",
-      "sha256": "34502a5e194d6b7efd8c589cb1e89123a57ce48988f2820266b91465ed675789",
-      "size_bytes": 40065,
+      "sha256": "9454866469e4eeabc5313cde57cb0df40fda7aace7b51fd5808de8e12d08fd66",
+      "size_bytes": 45695,
       "exists": false
     },
     "manifest.json": {
       "role": "package_manifest",
       "language": "neutral",
-      "sha256": "96db6555a3e0a17301fc86cda21a8a6942b65a3b8f29bdee5d1aab62de341c26",
-      "size_bytes": 7918,
+      "sha256": "17c6426fb4862a3be02cee4709ba8b4eb914f96f4dd672644eb125c7e48257dd",
+      "size_bytes": 13951,
       "exists": false
     },
     "agent.json": {
@@ -239,8 +239,8 @@
     "changelog.md": {
       "role": "unknown",
       "language": "neutral",
-      "sha256": "3ad7ff4f171a3e64304bc91ff5c054714745d64710b97b6ac7a81df65add7892",
-      "size_bytes": 1192,
+      "sha256": "512d9dee9b1252d55e7b71d48250b70b8f221b28528e1cf1a99655b2be4e5e08",
+      "size_bytes": 2507,
       "exists": true
     },
     "assets\\figures\\key-areas.en.png": {
@@ -386,22 +386,22 @@
     "report\\proposal.html": {
       "role": "unknown",
       "language": "neutral",
-      "sha256": "ebbe0517a0d652266cbf0385e1ac3f2be6e66e8a875d2b6140e0a0d516b1d35d",
-      "size_bytes": 42579,
+      "sha256": "68db25d77a294bf783dcbcbe172373c6afaadbdea30693404389e55080171cc5",
+      "size_bytes": 42623,
       "exists": true
     },
     "visual\\index.en.html": {
       "role": "unknown",
       "language": "neutral",
-      "sha256": "8566a1b250eabe78a850673523f60fe6fadc3b9f49d4d831f7610d8294b5c521",
-      "size_bytes": 8350,
+      "sha256": "7f9495d72277c48d658bf6cd12b2e0f7e9193d336e7076ce3ca6ce2bdb37b43b",
+      "size_bytes": 8658,
       "exists": true
     },
     "visual\\index.html": {
       "role": "unknown",
       "language": "neutral",
-      "sha256": "348715c69bba2a4644a1c4a0e1a25491e82d3284430db478afaa1f89e2e6be0d",
-      "size_bytes": 18265,
+      "sha256": "28931db150183d81bbdbc08e5f77aa537efd3c7cf960abd32ea0a3653a45feab",
+      "size_bytes": 18794,
       "exists": true
     }
   },
@@ -413,5 +413,6 @@
     "metrics_known": 18,
     "metrics_unknown": 5,
     "overall_confidence": "medium"
-  }
+  },
+  "iteration": "v2.0"
 }
